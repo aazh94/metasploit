@@ -1,35 +1,51 @@
 #Задание №1
 с помощью nmap были обнаружены следующие открытые порты и сетевые службы:
 
-FTP (vsftpd 2.3.4)
-SSH (OpenSSH 4.7p1 Debian 8ubuntu1)
-Telnet (Linux telnetd)
-SMTP (Postfix smtpd)
-DNS (ISC BIND 9.4.2)
-HTTP (Apache httpd 2.2.8)
-RPC (RPCbind)
-SMB/CIFS (Samba smbd 3.x)
-NFS (Network File System)
-MySQL (MySQL 5.0.51a)
-VNC (VNC protocol)
-IRC (UnrealIRCd 3.2.8.1)
-DistCC (Distributed Compiler Daemon)
-Rlogin (rlogind)
-Exec (rexecd)
-Login (rlogind)
+ FTP (vsftpd 2.3.4)
+
+ SSH (OpenSSH 4.7p1 Debian 8ubuntu1)
+
+ Telnet (Linux telnetd)
+
+ SMTP (Postfix smtpd)
+
+ DNS (ISC BIND 9.4.2)
+
+ HTTP (Apache httpd 2.2.8)
+
+ RPC (RPCbind)
+
+ SMB/CIFS (Samba smbd 3.x)
+
+ NFS (Network File System)
+
+ MySQL (MySQL 5.0.51a)
+
+ VNC (VNC protocol)
+
+ IRC (UnrealIRCd 3.2.8.1)
+
+ DistCC (Distributed Compiler Daemon)
+
+ Rlogin (rlogind)
+
+ Exec (rexecd)
+
+ Login (rlogind)
 
 
 
 #Обнаруженные уязвимости:
-vsftpd 2.3.4 Backdoor Command Execution
+
+1. vsftpd 2.3.4 Backdoor Command Execution
 Ссылка: https://www.exploit-db.com/exploits/49757
 
 
-UnrealIRCd 3.2.8.1 Backdoor Command Execution
+2. UnrealIRCd 3.2.8.1 Backdoor Command Execution
 Ссылка: https://www.exploit-db.com/exploits/16922
 
 
-DistCC Daemon Command Execution
+3. DistCC Daemon Command Execution
 Ссылка: https://www.exploit-db.com/exploits/9915
 
 
